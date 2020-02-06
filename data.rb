@@ -20,4 +20,3 @@ def directors_totals(nds)
 end
 
 
-director_totals()
