@@ -5,7 +5,7 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   file = File.open("dir.rb", "w")
-  file << directors_database
+  file << pp directors_database
   file.close
 
 end
